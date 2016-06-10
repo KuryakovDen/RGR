@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 	//Создаем игровое поле "Судоку"
-	$("#field").append("<div class='square' id='square1'>");
+	$("#field").append("<div class='square' id='square1'>"); //добавляем класс "square" в конец элемента "field"
 	for (var i = 1; i < 4; i++) {
 		for (var j = 1; j < 4; j++) {
 			$("#square1").append("<input type='text' maxlength=1 class='number' id='number"+i+"-"+j+"'>");
