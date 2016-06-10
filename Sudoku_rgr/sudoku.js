@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-	//Создание игрового поля
+	//Создаем игровое поле
 	$("#field").append("<div class='square' id='square1'>");
 	for (var i = 1; i < 4; i++) {
 		for (var j = 1; j < 4; j++) {
