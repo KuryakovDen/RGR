@@ -1,0 +1,18 @@
+#field {
+	width:545px;
+	height:545px;
+}
+.square {
+	width:170px;
+	height:170px;
+	border:1,5px solid black;
+	float:left;
+}
+.number {
+	float:left;
+	width:52px;
+	height:52px;
+	font-size:50px;
+	border:1px solid black;
+	text-align:center;
+}
